@@ -1,16 +1,25 @@
 const btn = document.querySelector(".btn-toggle-theme");
-const preferredTheme = window.matchMedia("(prefers-color-scheme: dark)") ? "dark" : "light";
+
+// detect system theme correctly
+const preferredTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
+  ? "dark"
+  : "light";
 
 let currentTheme = localStorage.getItem("theme") || preferredTheme;
 
 function setTheme(theme) {
   localStorage.setItem("theme", theme);
-  document.body.classList.toggle("light-theme", theme === "light");
-  document.body.classList.toggle("dark-theme", theme === "dark");
+
+  document.body.classList.remove("light-theme", "dark-theme");
+  document.body.classList.add(theme + "-theme");
+
   currentTheme = theme;
 }
+
+// set initial theme
 setTheme(currentTheme);
 
+// toggle on click
 btn.addEventListener("click", function () {
   setTheme(currentTheme === "light" ? "dark" : "light");
 });
