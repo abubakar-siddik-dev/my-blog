@@ -1,8 +1,8 @@
 {
-  "name": "bolognajs-website",
+  "name": "Abu Bakar Siddik web",
   "version": "2.0.0",
   "description": "Comunity Javascript di Bologna.",
-  "author": "the Bologna JS web team",
+  "author": "the ABS web team",
   "main": "./core/index",
   "scripts": {
     "start": "live-server"
