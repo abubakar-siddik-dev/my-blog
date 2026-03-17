@@ -1,9 +1,20 @@
-# BolognaJS website
+# Abu Bakar Siddik Blog
 
-Questo è il repo per il sito https://bolognajs.github.io - https://www.bolognajs.com
+This is my personal blog website where I share my writings, thoughts, and ideas.
 
-## Come contribuire
+🌐 Live Website: https://ar-siddik-dev.github.io/
 
-Forka il repo, modifica quello che vuoi e fai una pull-request :-)
+## About
 
-Se ti serve aiuto chiedi pure su [slack](bolognajs.slack.com) sul canale #general
+This blog is created using simple HTML, CSS, and JavaScript.
+
+## Features
+
+- Personal writings
+- Clean design
+- Dark/Light mode
+- Simple blog system
+
+## Author
+
+Abu Bakar Siddik
