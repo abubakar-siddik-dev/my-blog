@@ -134,3 +134,28 @@ header {
     font-size: 2.5rem;
   }
 }
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* BLOG FIX */
+.blog {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.post {
+  margin: 20px auto; /* center */
+}
+
+/* REMOVE EXTRA SPACE */
+main {
+  padding-bottom: 40px;
+}
+header {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
