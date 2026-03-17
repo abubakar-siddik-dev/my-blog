@@ -19,7 +19,7 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   color: var(--text-color);
-  background: var(--bkg-color);
+  background: var(--main-color);
 }
 
 /* LINKS */
@@ -158,4 +158,32 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/* ===== BLOG CENTER FIX ===== */
+
+.blog {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.blog h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.post {
+  margin: 20px auto;
+}
+
+/* ===== WRAPPER FIX ===== */
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ===== REMOVE EXTRA SPACE ===== */
+
+main {
+  padding-bottom: 40px;
 }
