@@ -78,6 +78,20 @@ This is a space for Da’wah, self-reformation, and principled resistance, guide
   </div>
 
   <script type="module" src="./scripts/themeselector.mjs"></script>
+<script>
+  const postContainer = document.getElementById("post-list");
 
+  for (let i = 1; i <= 1000; i++) {
+    const post = document.createElement("div");
+    post.className = "post";
+
+    post.innerHTML = 
+      <h3><a href="post${i}.html">শূন্য যাত্রা - পর্ব ${i}</a></h3>
+      <p>Click to read</p>
+    ;
+
+    postContainer.appendChild(post);
+  }
+</script>
 </body>
 </html>
